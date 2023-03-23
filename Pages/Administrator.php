@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrator page</title>
 
-    <link href="/Website.css" rel="stylsheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
@@ -15,8 +13,8 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="Website.html">
-                <img src="/Images/Logo3.png">
+            <a class="navbar-brand" href="Website.php">
+                <img src="/images/Logo3.png">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,7 +25,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Gebruikers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Logpagina.html">Log Pagina</a>
+                    <a class="nav-link" href="Logpagina.php">Log Pagina</a>
                 </li>
                 </ul>
             </div>
@@ -58,7 +56,7 @@
             <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="Emailbalk">
         </div>
 
-        <label for="Adressbalk" class="form-label">Adres + Huisnummer</label>
+        <label for="Adresbalk" class="form-label">Adres + Huisnummer</label>
         <div class="input-group mb-3">
         <input type="text" class="form-control" id="Adresbalk" placeholder="Adres" aria-label="Username">
         <span class="input-group-text">Nummer</span>
@@ -67,7 +65,7 @@
 
         <label for="Telefoonbalk" class="form-label">Telefoonnummer</label>
         <div class="input-group mb-3">
-            <input type="email" class="form-control" placeholder="Telefoonnummer" aria-label="Email" id="Telefoonbalk">
+            <input type="tel" class="form-control" placeholder="Telefoonnummer" aria-label="Email" id="Telefoonbalk">
         </div>
 
         <label for="Rolselect" class="form-label">Rol</label>
